@@ -1,0 +1,11 @@
+@AlunosApi_HostAddress = http://localhost:5113
+
+GET {{AlunosApi_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{AlunosApi_HostAddress}}/todos/1
+Accept: application/json
+
+###
